@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ff_transcache.c" />
+    <ClCompile Include="src\ff_transmux.c" />
+    <ClCompile Include="src\ff_demuxer.c">
+      <Filter>formats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ff_muxer.c">
+      <Filter>formats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ff_remuxer.c">
+      <Filter>formats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ff_common.c" />
+    <ClCompile Include="src\ff_video_encoder.c" />
+    <ClCompile Include="src\stream_io.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ff_common.h" />
+    <ClInclude Include="src\ff_transcache.h" />
+    <ClInclude Include="src\ff_transmux.h" />
+    <ClInclude Include="src\ff_remuxer.h">
+      <Filter>formats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ff_demuxer.h">
+      <Filter>formats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ff_muxer.h">
+      <Filter>formats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ff_video_encoder.h" />
+    <ClInclude Include="src\stream_io.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="formats">
+      <UniqueIdentifier>{d205755a-5519-4803-a649-f8fbc4102800}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fftools", "fftools\fftools.vcxproj", "{7900BD44-DD51-40AB-9427-2767C1EFEEAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sdl_test", "sdl_test\sdl_test.vcxproj", "{C8DE5F0C-6559-4F1E-9FC5-D255D9792F2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7900BD44-DD51-40AB-9427-2767C1EFEEAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7900BD44-DD51-40AB-9427-2767C1EFEEAA}.Debug|Win32.Build.0 = Debug|Win32
+		{7900BD44-DD51-40AB-9427-2767C1EFEEAA}.Release|Win32.ActiveCfg = Release|Win32
+		{7900BD44-DD51-40AB-9427-2767C1EFEEAA}.Release|Win32.Build.0 = Release|Win32
+		{C8DE5F0C-6559-4F1E-9FC5-D255D9792F2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8DE5F0C-6559-4F1E-9FC5-D255D9792F2D}.Debug|Win32.Build.0 = Debug|Win32
+		{C8DE5F0C-6559-4F1E-9FC5-D255D9792F2D}.Release|Win32.ActiveCfg = Release|Win32
+		{C8DE5F0C-6559-4F1E-9FC5-D255D9792F2D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
